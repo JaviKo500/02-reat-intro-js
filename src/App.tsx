@@ -1,5 +1,6 @@
 import './App.css'
-import { desObjects } from './basics/desObjects'
+import { descArrays } from './basics/descArrays'
+// import { desObjects } from './basics/desObjects'
 // import { functions } from './basics/functions'
 // import { arrays } from './basics/arrays'
 // import { literalObjects } from './basics/literalObjects'
@@ -12,7 +13,8 @@ function App() {
   // literalObjects();
   // arrays();
   // functions();
-  desObjects();
+  // desObjects();
+  descArrays();
   return (
     <>
       <h1>Hello world</h1>
