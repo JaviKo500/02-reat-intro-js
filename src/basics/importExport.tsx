@@ -1,4 +1,4 @@
-import { heroes } from '../data/heroes';
+import { heroes, owners } from '../data/heroes';
 
 export const importExport = () => {
   const heroesList = heroes;
@@ -14,6 +14,8 @@ export const importExport = () => {
   console.log('<--------------- JK ImportExport --------------->');
   console.table(hero2 ? hero2 : 'No hero found');
 
+  console.log('<--------------- JK ImportExport --------------->');
+  console.log(owners);
 }
 
 const getHeroById = ( id: number ) => {
