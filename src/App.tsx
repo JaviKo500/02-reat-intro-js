@@ -1,5 +1,6 @@
 import './App.css'
-import { promisesExample } from './basics/promises'
+import { fetchExp } from './basics/fetchExp'
+// import { promisesExample } from './basics/promises'
 // import { importExport } from './basics/importExport'
 // import { descArrays } from './basics/descArrays'
 // import { desObjects } from './basics/desObjects'
@@ -18,7 +19,10 @@ function App() {
   // desObjects();
   // descArrays();
   // importExport();
-  promisesExample();
+  // promisesExample();
+  console.log('<--------------- JK App --------------->');
+  console.log('test');
+  fetchExp();
   return (
     <>
       <h1>Hello world</h1>
