@@ -1,5 +1,6 @@
 import './App.css'
-import { fetchExp } from './basics/fetchExp'
+import { asyncAwait } from './basics/asyncAwait'
+// import { fetchExp } from './basics/fetchExp'
 // import { promisesExample } from './basics/promises'
 // import { importExport } from './basics/importExport'
 // import { descArrays } from './basics/descArrays'
@@ -20,9 +21,8 @@ function App() {
   // descArrays();
   // importExport();
   // promisesExample();
-  console.log('<--------------- JK App --------------->');
-  console.log('test');
-  fetchExp();
+  // fetchExp();
+  asyncAwait();
   return (
     <>
       <h1>Hello world</h1>
