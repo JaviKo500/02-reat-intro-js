@@ -1,5 +1,6 @@
 import './App.css'
-import { asyncAwait } from './basics/asyncAwait'
+import { ternaryOperator } from './basics/ternaryOperator'
+// import { asyncAwait } from './basics/asyncAwait'
 // import { fetchExp } from './basics/fetchExp'
 // import { promisesExample } from './basics/promises'
 // import { importExport } from './basics/importExport'
@@ -22,7 +23,8 @@ function App() {
   // importExport();
   // promisesExample();
   // fetchExp();
-  asyncAwait();
+  // asyncAwait();
+  ternaryOperator();
   return (
     <>
       <h1>Hello world</h1>
