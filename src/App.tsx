@@ -1,5 +1,6 @@
 import './App.css'
-import { importExport } from './basics/importExport'
+import { promisesExample } from './basics/promises'
+// import { importExport } from './basics/importExport'
 // import { descArrays } from './basics/descArrays'
 // import { desObjects } from './basics/desObjects'
 // import { functions } from './basics/functions'
@@ -16,7 +17,8 @@ function App() {
   // functions();
   // desObjects();
   // descArrays();
-  importExport();
+  // importExport();
+  promisesExample();
   return (
     <>
       <h1>Hello world</h1>

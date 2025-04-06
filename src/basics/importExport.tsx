@@ -18,10 +18,10 @@ export const importExport = () => {
   console.log(owners);
 }
 
-const getHeroById = ( id: number ) => {
+export const getHeroById = ( id: number ) => {
   return heroes.find(hero => hero.id === id);
 }
 
-const getHeroesByOwner = ( owner: string ) => {
+export const getHeroesByOwner = ( owner: string ) => {
   return heroes.filter(hero => hero.owner === owner);
 }
